@@ -1,0 +1,455 @@
+/**Body*/
+
+body{
+
+  
+  font-size: 14px;
+  color: #404040;
+  margin: 10px;
+  background: url("../img/bg1.png") #000;
+
+  
+}
+
+header{
+
+position: absolute; 
+
+
+}
+
+
+
+
+/*Title*/
+
+
+h1{
+
+font-family: 'Orbitron', sans-serif;
+color: #272727;
+font-size: 8em;
+text-align: center;
+
+
+
+
+}
+
+/*Primary Header*/
+
+
+h2{
+
+font-family: 'Russo One', sans-serif;
+color: #cfcfcf;
+font-size: 3em;
+
+}
+
+/*Secondary Header*/
+
+
+h3{
+
+font-family: 'Russo One', sans-serif;
+color: #ff3054;
+font-size: 2em;
+
+
+}
+
+
+/*Body Text*/
+
+
+p{
+
+font-family: 'Numans', sans-serif;
+line-height: 1.5em;
+color: #4d4d4d;
+font-size: 1.1em;
+
+}
+
+em{
+
+font-size: .8em;
+
+}
+
+
+/*Links*/
+
+
+a:link, a:visited{
+
+
+
+text-decoration: none;
+color: #ff3054;
+cursor: auto;
+transition-property: background, color, opacity;
+  transition-duration: .5s;
+  transition-timing-function: linear;
+  cursor: pointer;
+
+}
+
+
+a:active,  { 
+    color: white;
+
+}
+
+a:hover{
+  color:#3bff5c;
+
+
+}
+
+
+/* Layout for Style Tile*/
+/*section {
+  margin: 20px 0;
+}
+
+.color-1,
+.color-2,
+.color-3,
+.pattern-1,
+.pattern-2,
+.pattern-3 {
+  border: 1px solid #000;
+  float: left;
+  margin: 0 10px;
+  height: 50px;
+  width: 50px;
+}*/
+
+/*Color Palette*/
+
+/*.color-1{
+
+background: #cfcfcf;
+
+}
+
+.color-2{
+
+
+background: #3bff5c;
+
+}
+
+
+.color-3{
+
+background: #ff3054;
+
+}*/
+
+
+/*Textures*/
+
+/*.pattern-1{
+
+background: url("../img/wall.png")
+
+}
+
+.pattern-2{
+
+background: url("../img/pattern.png")
+
+}
+
+.pattern-3{
+
+background: url("../img/bg1.png")
+
+}*/
+
+/* Show Grid */
+.showgrid {
+  background: url("../img/grid-bg.png") repeat-y;
+}
+
+
+
+
+#container{
+
+  color: #404040;
+  margin: -30px;
+  background: url("../img/bg1.png");
+  border-radius: 10px 10px 10px 10px;
+
+
+
+
+/*Below CSS code copied from http://stackoverflow.com/questions/114543/how-to-horizontally-center-a-div-in-a-div*/
+
+  display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+
+}
+
+#page {
+max-width: 100%;
+min-width: 32%;
+float: left;
+margin-left: 10px;
+margin-top: 0px;
+margin-right:10px;
+margin-bottom:10px;
+padding-top: 0px;
+padding-bottom: 20px;
+border-radius: 4px;
+background: #272727;
+height: auto;
+
+
+
+}
+
+
+#content{
+
+padding:30px;
+max-width: 1000px;
+min-width: 320px;
+margin-top: 275px;
+
+
+}
+
+.banner{
+
+background: #3bff5c;
+opacity: 0.8;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: auto;
+
+
+
+}
+
+.type{
+
+margin-top:160px;
+text-align: center;
+
+
+}
+
+
+.main {
+max-width: 100%;
+min-width: 32%;
+float: left;
+overflow: hidden;
+
+}
+
+
+.subhead {
+
+font-style:italic;
+margin-left: 30px;
+
+}
+
+#title_cust1{
+
+background: url("../img/pattern.png");
+border-radius: 3px 40px 40px 3px;
+box-shadow: 0px 0px 20px 3px #d3d3d3;
+padding-left: 20px;
+margin-left:-30px;
+
+
+
+}
+
+
+.tabs{
+
+background: url("../img/old_wall.png");
+border-radius: 3px 40px 3px 30px;
+box-shadow: 0px 0px 20px 3px #000000;
+margin-top:20px;
+
+
+}
+
+
+/*blockquote*/
+
+blockquote {
+  background: gold;
+  border-left: 10px solid #0099FF;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  
+}
+
+blockquote p {
+  display: inline;
+}
+
+
+/* Show Grid */
+.showgrid {
+  background: url("../img/grid-bg.png") repeat-y;
+}
+
+section {
+  margin: 20px 0;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*http://codepen.io/skeurentjes/pen/aLJCc*/
+
+
+
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,600,700,300,200);
+
+@import url(http://fonts.googleapis.com/css?family=Croissant+One);
+
+
+@import url(http://fonts.googleapis.com/css?family=Poiret+One);
+
+* {
+
+}
+
+
+/* EFFECTS
+===================================================== */
+.roundedCorners {
+  -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.roundedCornersTop {
+  -webkit-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+}
+
+.roundedCornersBottom {
+  -webkit-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+}
+
+.boxShadow {
+  -webkit-box-shadow:  0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+  box-shadow:  0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+  
+/* GALLERY
+===================================================== */
+.galleryItem {
+  display: inline-block;;
+  position: relative;
+  width: 250px;
+  height: 250px;
+  padding: 0;
+  margin: 0 20px;
+  border: solid 10px #fff;
+  background: white;
+  
+  -webkit-box-shadow:  0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+  box-shadow:  0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.galleryItem img {
+  width: 250px;
+  height: 250px;
+}
+
+.caption {
+  position: relative;
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  z-index: 10;
+}
+
+.caption::before {
+  content: attr(data-title);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 0;
+  font-family: 'Russo One', sans-serif;
+  font-size: 1.8em;
+  font-weight: 600;
+  line-height: 1.4em;
+  color: #ff3054;
+  background: #fff;
+  overflow: hidden;
+  
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.caption::after {
+  content: attr(data-description);
+  position: absolute;
+  bottom: -0;
+  left: 0;
+  width: 250px;
+  height: 0;
+  font-family: 'Numans', sans-serif;
+  font-size: .9em;
+  font-weight: 400;
+  line-height: 1.4em;
+  color: #4d4d4d;
+  background: #272727;
+  overflow: hidden;
+  padding: 0 .5rem 0 .5rem;
+  
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.caption:hover::before {
+  height: 125px;
+}
+
+.caption:hover::after {
+  bottom: 0;
+  height: 125px;
+}
