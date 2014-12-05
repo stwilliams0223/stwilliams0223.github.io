@@ -366,7 +366,67 @@ section {
 
 
 
+/* =========
 
+Media Queries
+
+=========*/
+
+
+
+/*Tablet Size*/
+@media screen and (max-width: 900px) {
+
+
+ nav{
+
+
+  font-size:  1.3em;
+ } 
+
+h1{
+
+font-size: 7em;
+
+}
+
+h2{
+
+margin-top: 15%%;
+
+}
+
+}
+
+
+/*Mobile Size*/
+@media screen and (max-width: 480px) {
+
+
+
+  .banner {
+
+    margin-top: 20%;
+
+  }
+
+  } 
+
+
+  h1{
+
+    font-size:  5em;
+
+  }
+
+  h2{
+
+  margin-top: 20%;
+
+  }
+
+
+}
 
 
 
@@ -428,3 +488,7 @@ a.button--hire:active {
   border-bottom: 3px solid #e24b26;
   color: #fefefe;
 }
+
+
+
+
