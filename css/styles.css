@@ -90,7 +90,7 @@ text-decoration: none;
 color: #ff3054;
 cursor: auto;
 transition-property: background, color, opacity;
-  transition-duration: .5s;
+  transition-duration: .2s;
   transition-timing-function: linear;
   cursor: pointer;
 
@@ -143,6 +143,13 @@ nav ul li{
   display: inline;
   padding-left: 30px;
   
+}
+
+nav a:hover{
+
+color: white;
+
+
 }
 
 
@@ -373,108 +380,51 @@ section {
 
 /*http://codepen.io/macbobbitt_/pen/jmEBL*/
 
+.site__intro {
+  margin: 24% auto;
+  text-align: center;
+}
+.site__intro h2 {
+  
+  line-height: 1;
+  margin: 0 auto 3.375rem;
+  padding: 0;
+}
+.site__intro p {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1;
+  margin: 0 auto 3.75rem;
+  padding: 0;
+}
 
 
-#slider-wrapper{
-      width: 940px;
-      height: 470px;
-      margin: 50px auto;
-      position: relative;
-      margin-bottom: 0px;
-      background: rgba(0,0,0,0.5);
-      overflow: hidden;
-    }
-    
-        #s1{
-          padding: 6px;
-          background: #FFFFFF;
-          position: absolute;
-          left: 50%;
-          bottom: 25px;
-          margin-left: -36px;
-          border-radius: 20px;
-          opacity: 0.3;
-          cursor: pointer;
-          z-index: 999;
-        }
-        
-        #s2{
-          padding: 6px;
-          background: #FFFFFF;
-          position: absolute;
-          left: 50%;
-          bottom: 25px;
-          margin-left: -12px;
-          border-radius: 20px;
-          opacity: 0.3;
-          cursor: pointer;
-          z-index: 999;
-        }
-        
-        #s3{
-          padding: 6px;
-          background: #FFFFFF;
-          position: absolute;
-          left: 50%;
-          bottom: 25px;
-          margin-left: 12px;
-          border-radius: 20px;
-          opacity: 0.3;
-          cursor: pointer;
-          z-index: 999;
-        }
-        
-        #s4{
-          padding: 6px;
-          background: #FFFFFF;
-          position: absolute;
-          left: 50%;
-          bottom: 25px;
-          margin-left: 36px;
-          border-radius: 20px;
-          opacity: 0.3;
-          cursor: pointer;
-          z-index: 999;
-        }
-        
-        #s1:hover, #s2:hover, #s3:hover, #s4:hover{ opacity: 1;}
-        
-      .inner-wrapper{
-        width: 940px;
-        height: 470px;
-        position: absolute;
-        top: 0;
-        left: 0;
-        margin-bottom: 0px;
-        overflow: hidden;
-      }
-        .control{ display: none;}
-        
-        #Slide1:checked ~ .overflow-wrapper{ margin-left: 0%; }
-        #Slide2:checked ~ .overflow-wrapper{ margin-left: -100%; }
-        #Slide3:checked ~ .overflow-wrapper{ margin-left: -200%; }
-        #Slide4:checked ~ .overflow-wrapper{ margin-left: -300%; }
-        
-        #Slide1:checked + #s1 { opacity: 1; }
-        #Slide2:checked + #s2 { opacity: 1; }
-        #Slide3:checked + #s3 { opacity: 1; }
-        #Slide4:checked + #s4 { opacity: 1; }
-        
-      .overflow-wrapper{
-        width: 400%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        overflow-y: hidden;
-        z-index: 1;
-        -webkit-transition: all 0.3s ease-in-out;
-        -moz-transition: all 0.3s ease-in-out;
-        -o-transition: all 0.3s ease-in-out;
-        transition: all 0.3s ease-in-out;
-      }
-      
-        .slide img{
-          width: 25%;
-          float: left;
-        }
+a.button--hire {
+  background-color: #ff3054;
+  border-bottom: 3px solid #ff3054;
+  border-radius: 5px;
+  border-top: 3px solid #ff3054;
+  color: #272727;
+  display: block;
+  font-weight: 600;
+  line-height: 1.5;
+  margin: 0 auto;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 200px;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+a.button--hire:hover, a.button--hire:focus {
+  background-color: #ff3054;
+  border-top: 3px solid #ff3054;
+  border-bottom: 3px solid #ff3054;
+  color: #fefefe;
+}
+a.button--hire:active {
+  background-color: #e24b26;
+  border-top: 3px solid #c53c1a;
+  border-bottom: 3px solid #e24b26;
+  color: #fefefe;
+}
